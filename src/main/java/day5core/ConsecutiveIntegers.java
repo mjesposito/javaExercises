@@ -4,13 +4,11 @@ public class ConsecutiveIntegers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println(sumInt(5));
 	}
 
 	static int sumInt(int n) {
-		int sum = 0;
-
-		return sum;
+		return (n * (1 + n)) / 2;
 	}
 
 }
